@@ -1,15 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif; 
-    width: 960px;
-    text-align: center;
-    font-size: 18px;
+    margin: 50px;
     color: #777777;
-    /* background-image: url(papyrus.png) */
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 960px; */
+    margin: 0 auto;
+    font-size: 18px;
+    background-image: url("/assets/images/papyrus.png");
+  }
+
+  .header {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid;
+    margin-bottom: 50px;
     
+  }
+
+  .container {
+    width: 960px;
+    margin: auto;
+  }
+
+  h1 {
+    background-color: #4aaaa5;
+    color: white;
+    /* position: static; */
+    padding: 25px;
+    width: 20%;
+    text-align: center;
+  }
+
+  #nav {
+    width: 270px;
+    float: right;
+    text-align: center;
+    margin-right: 125px;
+    text-decoration: none;
+    color: #777777;
+  }  
+    /* float: right; */
+      /* display: inline-block; */
+      /* padding: 25px; */
+      /* position: relative; */
+  }
+
+a {
+    text-decoration: none;
+    color: #777777;
+  }
+
+
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 960px;
+    margin: auto;
+    border: 1px solid #dddddd;
+   
+    
+
 }
 
-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h2 {
+    color: #4aaaa5;
 }
 
+p {
+   line-height: 150%;
+   padding-bottom: 15px; 
+}
+
+.image {
+  width: 250px;
+  float: left;
+  margin: 0 25px 25px 0;
+}
 
