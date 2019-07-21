@@ -1,0 +1,40 @@
+.portfolio-content {
+    clear: both;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 960px;
+    margin: auto;
+    border: 1px solid #dddddd;
+   position: relative;
+    
+}
+
+/* .kittens { */
+
+    /* margin: 5%; */
+    /* padding: 10%; */
+/* } */
+
+
+.image-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    color: #dddddd;
+    text-align: center;
+    width: 300px;
+    padding: 14px 20px;
+  }
+
+  .kittens {
+
+    margin: 5%;
+    padding: 10%;
+}
+
+
+
+
+
